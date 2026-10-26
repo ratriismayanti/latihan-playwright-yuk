@@ -1,0 +1,7 @@
+[
+  { "case": "nama penerima kosong", "recipient": "", "phone": "081234567890", "postalCode": "40111", "error": "Nama penerima wajib diisi (2 sampai 60 karakter)." },
+  { "case": "nomor HP tidak diawali 08", "recipient": "Rina", "phone": "6281234567890", "postalCode": "40111", "error": "Nomor HP harus diawali 08 dan berisi 10 sampai 13 digit angka." },
+  { "case": "nomor HP terlalu pendek", "recipient": "Rina", "phone": "0812", "postalCode": "40111", "error": "Nomor HP harus diawali 08 dan berisi 10 sampai 13 digit angka." },
+  { "case": "kode pos bukan 5 digit", "recipient": "Rina", "phone": "081234567890", "postalCode": "401", "error": "Kode pos harus 5 digit angka." },
+  { "case": "kode pos berisi huruf", "recipient": "Rina", "phone": "081234567890", "postalCode": "40A11", "error": "Kode pos harus 5 digit angka." }
+]
